@@ -46,10 +46,10 @@ def parking(leaders):
 			return cars
 			break
 
-#simple averaging function that will run sim a hundred times on different values of leaders
+#simple averaging function that will run sim ten times on different values of leaders
 def average_park(leaders):
 	total = 0
-	for i in range(100):
+	for i in range(10):
 		total += parking(leaders)
 	print str(leaders) + ", " + str(float(total)/10)
 
