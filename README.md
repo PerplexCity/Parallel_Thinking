@@ -1,1 +1,3 @@
-# Parallel_Thinking
+# Parallel Thinking
+
+The article's argument is built on two simulators. First, the random choice one, [parking.py](https://github.com/PerplexCity/Parallel_Thinking/blob/master/parking.py), and then the "leaders" version, [parking_2.py](https://github.com/PerplexCity/Parallel_Thinking/blob/master/parking_2.py). As is, both scripts print their results. For the second simulator, those results were logged in [leaders.csv](https://github.com/PerplexCity/Parallel_Thinking/blob/master/leaders.csv) and the uploaded to [parking.R](https://github.com/PerplexCity/Parallel_Thinking/blob/master/parking.R) for visualization. 
